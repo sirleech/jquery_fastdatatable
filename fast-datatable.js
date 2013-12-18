@@ -38,6 +38,7 @@ function nextPage() {
 ////////////////////////////////////////////////////////////////////
 
 function renderDataTable() {
+	
 	var row;
 	var headerRow;
 	var tbody;
@@ -73,14 +74,7 @@ function renderDataTable() {
 
 }
 
-// buttons
-// table pagination
-$("#previous_page").click(function(){
-	previousPage();
-});	
-$("#next_page").click(function(){
-	nextPage();
-});	
+
 
 
 

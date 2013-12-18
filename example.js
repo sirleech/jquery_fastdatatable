@@ -1,5 +1,14 @@
 $( document ).ready(function() {
 
+	// buttons
+	// table pagination
+	$("#previous_page").click(function(){
+		previousPage();
+	});	
+	$("#next_page").click(function(){
+		nextPage();
+	});	
+
 	//load up some fake data
 	for (index  = 0; index < 5000; ++index) {
 			
