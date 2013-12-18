@@ -14,6 +14,6 @@ $( document ).ready(function() {
 	
 
 	// make the HTML table from array model
-	renderTable();
+	renderDataTable();
 
 });

@@ -21,14 +21,14 @@ function previousPage() {
 	if(dataTable.currentPage - 1 > 0)
 		dataTable.currentPage --;
 
-	renderTable();
+	renderDataTable();
 }
 
 function nextPage() {
 	if(dataTable.currentPage + 1 <= dataTable.pageCount)
 		dataTable.currentPage ++;
 		
-	renderTable();
+	renderDataTable();
 }	
 
 ////////////////////////////////////////////////////////////////////
@@ -37,7 +37,7 @@ function nextPage() {
 //
 ////////////////////////////////////////////////////////////////////
 
-function renderTable() {
+function renderDataTable() {
 	var row;
 	var headerRow;
 	var tbody;
